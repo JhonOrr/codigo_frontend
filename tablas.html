@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas HTML 5</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>tablas en HTML5</h1>
+            <!-- las tablas tienen 3 partes, <thead>, <tbody> y <tfoot> -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Nombre</th>
+                        <th>Numero telefono</th>
+                        <th>Opciones</th>
+                    </tr>
+                </thead>    
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>Guillermo</td>
+                        <td>946526556</td>
+                        <td>
+                            <button>editar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>Eduardo</td>
+                        <td>916565156</td>
+                        <td>
+                            <button>editar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>Pablo</td>
+                        <td>946526555</td>
+                        <td>
+                            <button>editar</button>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                </tfoot>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Dni</th>
+                        <th>Estado civil</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td>Guillermo</td>
+                        <td colspan="2">No existen mas datos</td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>Eduardo</td>
+                        <td>56295321</td>
+                        <td rowspan="2">Soltero</td>
+                    </tr>
+
+                    <tr>
+                        <td>Angel</td>
+                        <td>56590321</td>
+                        
+                    </tr>
+
+                <tbody>
+
+                </tbody>
+            </table>
+        </article>
+      
+    </main>
+</body>
+</html>
